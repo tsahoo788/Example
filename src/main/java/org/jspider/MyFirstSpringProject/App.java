@@ -15,7 +15,7 @@ public class App
 		ApplicationContext apc = new AnnotationConfigApplicationContext(App.class);
 		SignUpController s = apc.getBean(SignUpController.class);
 		s.register("Miller", "da@gmail.com","da@123" );
-		
+		//Hello
 	}
 }
 // write a spring program to store a product information in the database
